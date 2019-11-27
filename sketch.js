@@ -75,7 +75,6 @@ function windowResized() {
   background('#8bb5d8');
 }
 
-
 function reset() {
   c = 0;
 }
