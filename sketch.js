@@ -63,7 +63,7 @@ function draw() {
   volume = analyzer.getLevel();
   volume = map(volume, 0, 1, 0, height);
 
-  image(myLogo, width/2, height/2, volume + 500 , volume + 470);
+  image(myLogo, width/2, height/2, volume + 200 , volume + 170);
   imageMode(CENTER);
 
   c++;
